@@ -1,0 +1,1663 @@
+fileFormatVersion: 2
+guid: 38427a49b308640a98bcd788fb0d4d1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4447214450015512886
+    second: megaman_0
+  - first:
+      213: -1194286133699934751
+    second: megaman_1
+  - first:
+      213: -4280799735105132626
+    second: megaman_2
+  - first:
+      213: -3436638402010850838
+    second: megaman_3
+  - first:
+      213: -3479955252747988287
+    second: megaman_4
+  - first:
+      213: -5244280776950939149
+    second: megaman_5
+  - first:
+      213: 1167060217537761210
+    second: megaman_6
+  - first:
+      213: -6869773987950756324
+    second: megaman_7
+  - first:
+      213: -1479413579526604112
+    second: megaman_8
+  - first:
+      213: -5532630123933048144
+    second: megaman_9
+  - first:
+      213: -2390051876051868894
+    second: megaman_10
+  - first:
+      213: -4974244922683379988
+    second: megaman_11
+  - first:
+      213: -8430374177127291492
+    second: megaman_12
+  - first:
+      213: 4955803101228726426
+    second: megaman_13
+  - first:
+      213: -7141315805745326948
+    second: megaman_14
+  - first:
+      213: 4894272199637467181
+    second: megaman_15
+  - first:
+      213: 7585541589069253088
+    second: megaman_16
+  - first:
+      213: 6161574225529127072
+    second: megaman_17
+  - first:
+      213: -8297404022594335140
+    second: megaman_18
+  - first:
+      213: 4529873522826154548
+    second: megaman_19
+  - first:
+      213: 8549604156506240704
+    second: megaman_20
+  - first:
+      213: -2509409283837290187
+    second: megaman_21
+  - first:
+      213: -1399579157637678138
+    second: megaman_22
+  - first:
+      213: 6399420990518643534
+    second: megaman_23
+  - first:
+      213: -6406552658929891274
+    second: megaman_24
+  - first:
+      213: -228279824579969307
+    second: megaman_25
+  - first:
+      213: 3349554426705406375
+    second: megaman_26
+  - first:
+      213: -6080921661540654342
+    second: megaman_27
+  - first:
+      213: 6307124420216283377
+    second: megaman_28
+  - first:
+      213: -2128342209404728171
+    second: megaman_29
+  - first:
+      213: 1012688299619394988
+    second: megaman_30
+  - first:
+      213: -8179058805152030290
+    second: megaman_31
+  - first:
+      213: -5102532173381922275
+    second: megaman_32
+  - first:
+      213: 8419506674217279071
+    second: megaman_33
+  - first:
+      213: -7161082993080780609
+    second: megaman_34
+  - first:
+      213: 5560589235883687161
+    second: megaman_35
+  - first:
+      213: -8074116911853616773
+    second: megaman_36
+  - first:
+      213: -4635356164159159118
+    second: megaman_37
+  - first:
+      213: 4945427329559101939
+    second: megaman_38
+  - first:
+      213: -479120710381496076
+    second: megaman_39
+  - first:
+      213: 2329727235602044894
+    second: megaman_40
+  - first:
+      213: -2228116525030743845
+    second: megaman_41
+  - first:
+      213: 7636077708755985867
+    second: megaman_42
+  - first:
+      213: -8531150896650653346
+    second: megaman_43
+  - first:
+      213: -9158778252313123325
+    second: megaman_44
+  - first:
+      213: 8037955656674369036
+    second: megaman_45
+  - first:
+      213: 8617223515109640927
+    second: megaman_46
+  - first:
+      213: -7958080049830524724
+    second: megaman_47
+  - first:
+      213: -1087958723078383255
+    second: megaman_48
+  - first:
+      213: -3146271516288795623
+    second: megaman_49
+  - first:
+      213: -416955826232162278
+    second: megaman_0
+  - first:
+      213: 8703471270767750836
+    second: megaman_1
+  - first:
+      213: 5758356155072040670
+    second: megaman_2
+  - first:
+      213: -2175903808686204513
+    second: megaman_3
+  - first:
+      213: 4124562858874143049
+    second: megaman_4
+  - first:
+      213: 8713498556514019392
+    second: megaman_5
+  - first:
+      213: -5148049238864266241
+    second: megaman_6
+  - first:
+      213: 5115054544820624316
+    second: megaman_7
+  - first:
+      213: 3024446099031775334
+    second: megaman_8
+  - first:
+      213: 9128687254149544536
+    second: megaman_9
+  - first:
+      213: -2780459282170618073
+    second: megaman_10
+  - first:
+      213: 2650582211491157593
+    second: megaman_11
+  - first:
+      213: -1215067161535266352
+    second: megaman_12
+  - first:
+      213: 6697338895489447163
+    second: megaman_13
+  - first:
+      213: 8428664451815722285
+    second: megaman_14
+  - first:
+      213: 6895825231108189864
+    second: megaman_15
+  - first:
+      213: 8586570179547570106
+    second: megaman_16
+  - first:
+      213: 6368610289284012874
+    second: megaman_17
+  - first:
+      213: 4461709148570131232
+    second: megaman_18
+  - first:
+      213: 5336745722069183498
+    second: megaman_19
+  - first:
+      213: -6344564202531125523
+    second: megaman_20
+  - first:
+      213: -7198129887739499460
+    second: megaman_21
+  - first:
+      213: -6376141840466428189
+    second: megaman_22
+  - first:
+      213: -8651302861926470708
+    second: megaman_23
+  - first:
+      213: 6654352641148209356
+    second: megaman_24
+  - first:
+      213: 8838472415526954829
+    second: megaman_25
+  - first:
+      213: 842892231208203461
+    second: megaman_26
+  - first:
+      213: 694677673193831491
+    second: megaman_27
+  - first:
+      213: 2713210894214284518
+    second: megaman_28
+  - first:
+      213: 4749059659562787442
+    second: megaman_29
+  - first:
+      213: -9188262178511957322
+    second: megaman_30
+  - first:
+      213: -4754614862693694019
+    second: megaman_31
+  - first:
+      213: 1246363686377567973
+    second: megaman_32
+  - first:
+      213: -4207394691458579855
+    second: megaman_33
+  - first:
+      213: -35039093550613010
+    second: megaman_34
+  - first:
+      213: -6346645218956274164
+    second: megaman_35
+  - first:
+      213: 1973409048729751849
+    second: megaman_36
+  - first:
+      213: 3045307131626187086
+    second: megaman_37
+  - first:
+      213: 1048586971085172634
+    second: megaman_38
+  - first:
+      213: -7319212883513725357
+    second: megaman_39
+  - first:
+      213: 7605280302546362661
+    second: megaman_40
+  - first:
+      213: -7548689682340744423
+    second: megaman_41
+  - first:
+      213: -6838663595989049481
+    second: megaman_42
+  - first:
+      213: -2485481351061284864
+    second: megaman_43
+  - first:
+      213: 4663531062891974697
+    second: megaman_44
+  - first:
+      213: 4667608574109424283
+    second: megaman_45
+  - first:
+      213: -2961722594473053050
+    second: megaman_46
+  - first:
+      213: 7861248349534402004
+    second: megaman_47
+  - first:
+      213: 8016668112069648893
+    second: megaman_48
+  - first:
+      213: 2779421397641579525
+    second: megaman_49
+  - first:
+      213: -2676593927235049340
+    second: megaman_50
+  - first:
+      213: 8070983481509253522
+    second: megaman_51
+  - first:
+      213: -2202497721180951474
+    second: megaman_52
+  - first:
+      213: 7053040388846825731
+    second: megaman_53
+  - first:
+      213: 6631352347874709754
+    second: megaman_54
+  - first:
+      213: 4946764893253713964
+    second: megaman_55
+  - first:
+      213: 5740790387766091544
+    second: megaman_56
+  - first:
+      213: 2626656622656167218
+    second: megaman_57
+  - first:
+      213: 6116998880608401576
+    second: megaman_58
+  - first:
+      213: 7071428796347500476
+    second: megaman_59
+  - first:
+      213: 1672341016438622693
+    second: megaman_60
+  - first:
+      213: -4091446423772460547
+    second: megaman_61
+  - first:
+      213: -867345533179951135
+    second: megaman_62
+  - first:
+      213: 9031937935877630171
+    second: megaman_63
+  - first:
+      213: -188217165773333032
+    second: megaman_64
+  - first:
+      213: 8551795967769212019
+    second: megaman_65
+  - first:
+      213: 7592484980065744622
+    second: megaman_66
+  - first:
+      213: -6803915270428750075
+    second: megaman_67
+  - first:
+      213: -1915643449645750519
+    second: megaman_68
+  - first:
+      213: -4244919103760654290
+    second: megaman_69
+  - first:
+      213: -8933068978203251627
+    second: megaman_70
+  - first:
+      213: -3981761588535956415
+    second: megaman_71
+  - first:
+      213: 8532228052443935571
+    second: megaman_72
+  - first:
+      213: 4933462259238986939
+    second: megaman_73
+  - first:
+      213: -5286239359805867727
+    second: megaman_74
+  - first:
+      213: -548994919962023558
+    second: megaman_75
+  - first:
+      213: 1150089363004486627
+    second: megaman_76
+  - first:
+      213: 323933276782405152
+    second: megaman_77
+  - first:
+      213: -7992200912915430921
+    second: megaman_78
+  - first:
+      213: 8302302823898405516
+    second: megaman_79
+  - first:
+      213: 9089669978810225217
+    second: megaman_80
+  - first:
+      213: -1219978820804738122
+    second: megaman_81
+  - first:
+      213: 6650145710369787386
+    second: megaman_82
+  - first:
+      213: -8594139584596464448
+    second: megaman_83
+  - first:
+      213: 4197463881344016469
+    second: megaman_84
+  - first:
+      213: -1039950428110115757
+    second: megaman_85
+  - first:
+      213: -4992399548603529895
+    second: megaman_86
+  - first:
+      213: 6491850558327171487
+    second: megaman_87
+  - first:
+      213: 5544309480891543666
+    second: megaman_88
+  - first:
+      213: -4178328628381358237
+    second: megaman_89
+  - first:
+      213: -4839543379720581750
+    second: megaman_90
+  - first:
+      213: -4111207907320709242
+    second: megaman_91
+  - first:
+      213: -6108289620391250357
+    second: megaman_92
+  - first:
+      213: 3093205605452345627
+    second: megaman_93
+  - first:
+      213: -1542334977361505609
+    second: megaman_94
+  - first:
+      213: -746953628110082673
+    second: megaman_95
+  - first:
+      213: -1259814836148196539
+    second: megaman_96
+  - first:
+      213: -6306468124810858341
+    second: megaman_97
+  - first:
+      213: -4374228242229468386
+    second: megaman_98
+  - first:
+      213: -2092911931783096664
+    second: megaman_99
+  - first:
+      213: 4229767949705577352
+    second: megaman_100
+  - first:
+      213: -3541645336277372534
+    second: megaman_101
+  - first:
+      213: -2701245929758673637
+    second: megaman_102
+  - first:
+      213: -9055978059877592609
+    second: megaman_103
+  - first:
+      213: -1539014976936561097
+    second: megaman_104
+  - first:
+      213: -2474122664356366389
+    second: megaman_105
+  - first:
+      213: -5612187382106948133
+    second: megaman_106
+  - first:
+      213: -7775711607798193466
+    second: megaman_107
+  - first:
+      213: 331189871981198413
+    second: megaman_108
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: megaman_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18076a92eca63af0800000000000000
+      internalID: -416955826232162278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4beedeef101f8c870800000000000000
+      internalID: 8703471270767750836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edec049f96ac9ef40800000000000000
+      internalID: 5758356155072040670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99d6d1b303adc1e0800000000000000
+      internalID: -2175903808686204513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94186f831146d3930800000000000000
+      internalID: 4124562858874143049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048a5e365c09ce870800000000000000
+      internalID: 8713498556514019392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb76472e747e88b0800000000000000
+      internalID: -5148049238864266241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbd7cef1035cf640800000000000000
+      internalID: 5115054544820624316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668da1fe3bdf8f920800000000000000
+      internalID: 3024446099031775334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a383911bc9fae70800000000000000
+      internalID: 9128687254149544536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f58cda303d969d0800000000000000
+      internalID: -2780459282170618073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95656eb5a72c8c420800000000000000
+      internalID: 2650582211491157593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1c272bad6332fe0800000000000000
+      internalID: -1215067161535266352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf43e0ecd3ab1fc50800000000000000
+      internalID: 6697338895489447163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d407579a1a8f470800000000000000
+      internalID: 8428664451815722285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae21651384e2bf50800000000000000
+      internalID: 6895825231108189864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf15eea510a92770800000000000000
+      internalID: 8586570179547570106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_17
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bdba5d059d16850800000000000000
+      internalID: 6368610289284012874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_18
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b12abd4dc2bed30800000000000000
+      internalID: 4461709148570131232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ce48c75fdef0a40800000000000000
+      internalID: 5336745722069183498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_20
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de60975097493f7a0800000000000000
+      internalID: -6344564202531125523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_21
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c2a22210b1b1c90800000000000000
+      internalID: -7198129887739499460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee3e7147c46387a0800000000000000
+      internalID: -6376141840466428189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb6d8632e560f780800000000000000
+      internalID: -8651302861926470708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc842d98872095c50800000000000000
+      internalID: 6654352641148209356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47a29c65df88aa70800000000000000
+      internalID: 8838472415526954829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4f919b40e82bb00800000000000000
+      internalID: 842892231208203461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_27
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cfc18c9adf3a900800000000000000
+      internalID: 694677673193831491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_28
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4cc5edee247a520800000000000000
+      internalID: 2713210894214284518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_29
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272a069499c08e140800000000000000
+      internalID: 4749059659562787442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b253aaea3cbc7080800000000000000
+      internalID: -9188262178511957322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_31
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5895139f6340eb0800000000000000
+      internalID: -4754614862693694019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_32
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e63b735b29fb4110800000000000000
+      internalID: 1246363686377567973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1724fb1e1d45c95c0800000000000000
+      internalID: -4207394691458579855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_34
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedf9ab4124838ff0800000000000000
+      internalID: -35039093550613010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c061ea0accf2ce7a0800000000000000
+      internalID: -6346645218956274164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_36
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92114120315f26b10800000000000000
+      internalID: 1973409048729751849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_37
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49ea8493ba134a20800000000000000
+      internalID: 3045307131626187086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f62a76b445d8e00800000000000000
+      internalID: 1048586971085172634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ea3ba49aeec6a90800000000000000
+      internalID: -7319212883513725357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_40
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5212d8204226b8960800000000000000
+      internalID: 7605280302546362661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9137c648abaad3790800000000000000
+      internalID: -7548689682340744423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f5da631bf2811a0800000000000000
+      internalID: -6838663595989049481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008522e31ebc18dd0800000000000000
+      internalID: -2485481351061284864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_44
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9201da21bc038b040800000000000000
+      internalID: 4663531062891974697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a1c52a44da6c040800000000000000
+      internalID: 4667608574109424283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_46
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6847f210ef8d5e6d0800000000000000
+      internalID: -2961722594473053050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5bf1529b3c81d60800000000000000
+      internalID: 7861248349534402004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_48
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1ec1e7c2de04f60800000000000000
+      internalID: 8016668112069648893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_49
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ccb8ff80d729620800000000000000
+      internalID: 2779421397641579525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_50
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488ef2f1104dadad0800000000000000
+      internalID: -2676593927235049340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
