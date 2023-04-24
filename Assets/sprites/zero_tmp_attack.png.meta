@@ -1,0 +1,1004 @@
+fileFormatVersion: 2
+guid: 3c90122bd0bea4d5e958e580e3fad032
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zero_tmp_attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1408
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c2202105b80448d80a789f7b03bfee
+      internalID: 1171272281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1408
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c338a5d2cd944c99ba48cd566ca1df
+      internalID: 991347794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_2
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1408
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91953d3aa67e40448c0820d4c3c2809
+      internalID: -1132114391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1320
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760468810e2bf47c59c77038eac3aa9b
+      internalID: 947487916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1320
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0088668747c54a3e8a5bd5fbd7dc802
+      internalID: 1602901894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1320
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd89f141070d448eb35edebb5a5e0e1
+      internalID: -303925272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1232
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a281886c2e849e7b8fa68cc3a9fb55
+      internalID: 1143620350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_7
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1232
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07be21fc0b7ad4a099490235ed4683c5
+      internalID: -446318437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_8
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1232
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e162393d2635d451490fa4998d4c081b
+      internalID: 7586008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1144
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7d25ad336b54e9d91c19809f9d52d7
+      internalID: -2139914884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_10
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1144
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73de1950568cc43f1957fca6e0e1022f
+      internalID: 1401100949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_11
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1144
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a633e6af6cbd143fba1b5ec267b120f5
+      internalID: 592164101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8491b56213b644c6abee6938be132f8
+      internalID: -1252296853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_13
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1056
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6126f78dab24e57b7d96f58250e6ff
+      internalID: -2016366851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_14
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1056
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74251663e11fc4612912802ca40935c3
+      internalID: -1231468035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 968
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6a8d849f09747e795ca9a2b509fa9f
+      internalID: -240274705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_16
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 968
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b4a73d08f404e859454fe9bab193f0
+      internalID: -1643857439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_17
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 967
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d51ba46d1a814eeba523c51cfc62741
+      internalID: -651830810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3c7dc351659423988f7371552c5bde
+      internalID: 647763888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_19
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 880
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3735fa1cf38b94cb98aa2d9b0a15af17
+      internalID: 646545133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_20
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 880
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8847e8f1c7c4b2f8a487fb20d1bcd2
+      internalID: -1195121011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 792
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ec7b8a4a45041f5bb6b73ff0e7f1a7
+      internalID: -1338505178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_22
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 792
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19991160bff894784af00632b9826eca
+      internalID: 1743946073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_23
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 792
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f901e42e6148c4477ae2ea46645572d4
+      internalID: 458090472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc720757ced334fdb9c9922f8c1f4abf
+      internalID: 190234202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_25
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 704
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6af7afee29a24f90aa6734092c2d34b
+      internalID: -1636010395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_26
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 704
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b1f051895e14a70a9903314f65370a
+      internalID: -160044057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ee37f90af9d405d8623e2aef1c8632
+      internalID: -1795042984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_28
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 616
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073a163edb8cc40dca365ba519dd0d0a
+      internalID: -413931312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f107a21f83b14b27b0df5a82fb84968
+      internalID: -2096388625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_30
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 528
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1a2bf064b5246e6bd48b571afb0f98
+      internalID: 485628513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d5f7a15eb3542789a4b3433c74117b
+      internalID: -1155541465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_32
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 440
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c91b8e09345d4054ab23c2088fceaad
+      internalID: -1195483790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8cdadc4509d43e3ba23ddf9827fe40
+      internalID: 1122150777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_34
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 352
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799740879bf8748f58d588d1ffb0fa39
+      internalID: -1094734244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac23187617374543a714b7b7e098219
+      internalID: 1827705043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_36
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 264
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3250ebc7b7f4608964571428908732
+      internalID: 1018299149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8270f6660504a909fc623676a1ed19
+      internalID: 804879694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209bc3291c9bc4292850cecd7a0ad535
+      internalID: 870432094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_tmp_attack_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 118
+        height: 88
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dcbb3b2d47743219f1d9ec5c89fa8b
+      internalID: 1081816236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      zero_tmp_attack_13: -2016366851
+      zero_tmp_attack_17: -651830810
+      zero_tmp_attack_27: -1795042984
+      zero_tmp_attack_38: 870432094
+      zero_tmp_attack_6: 1143620350
+      zero_tmp_attack_36: 1018299149
+      zero_tmp_attack_34: -1094734244
+      zero_tmp_attack_29: -2096388625
+      zero_tmp_attack_16: -1643857439
+      zero_tmp_attack_3: 947487916
+      zero_tmp_attack_0: 1171272281
+      zero_tmp_attack_18: 647763888
+      zero_tmp_attack_28: -413931312
+      zero_tmp_attack_8: 7586008
+      zero_tmp_attack_11: 592164101
+      zero_tmp_attack_22: 1743946073
+      zero_tmp_attack_1: 991347794
+      zero_tmp_attack_25: -1636010395
+      zero_tmp_attack_5: -303925272
+      zero_tmp_attack_19: 646545133
+      zero_tmp_attack_7: -446318437
+      zero_tmp_attack_2: -1132114391
+      zero_tmp_attack_39: 1081816236
+      zero_tmp_attack_23: 458090472
+      zero_tmp_attack_33: 1122150777
+      zero_tmp_attack_15: -240274705
+      zero_tmp_attack_35: 1827705043
+      zero_tmp_attack_30: 485628513
+      zero_tmp_attack_9: -2139914884
+      zero_tmp_attack_4: 1602901894
+      zero_tmp_attack_14: -1231468035
+      zero_tmp_attack_24: 190234202
+      zero_tmp_attack_26: -160044057
+      zero_tmp_attack_10: 1401100949
+      zero_tmp_attack_20: -1195121011
+      zero_tmp_attack_31: -1155541465
+      zero_tmp_attack_37: 804879694
+      zero_tmp_attack_12: -1252296853
+      zero_tmp_attack_21: -1338505178
+      zero_tmp_attack_32: -1195483790
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
