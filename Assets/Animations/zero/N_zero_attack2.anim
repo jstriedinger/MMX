@@ -22,36 +22,36 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 991347794, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.035714287
+    - time: 0.03125
       value: {fileID: 1602901894, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.071428575
+    - time: 0.0625
       value: {fileID: -446318437, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.10714286
+    - time: 0.09375
       value: {fileID: 1401100949, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.14285715
+    - time: 0.125
       value: {fileID: -2016366851, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.17857143
+    - time: 0.15625
       value: {fileID: -1643857439, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.21428572
+    - time: 0.1875
       value: {fileID: 646545133, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.25
+    - time: 0.21875
       value: {fileID: 1743946073, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.2857143
+    - time: 0.25
       value: {fileID: -1636010395, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.32142857
+    - time: 0.28125
       value: {fileID: 1827705043, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.39285713
+    - time: 0.34375
       value: {fileID: 804879694, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.4642857
+    - time: 0.40625
       value: {fileID: 870432094, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.53571427
+    - time: 0.46875
       value: {fileID: 1081816236, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 28
+  m_SampleRate: 32
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -86,7 +86,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.57142854
+    m_StopTime: 0.5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -106,17 +106,31 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.21428572
+  - time: 0.03125
+    functionName: PlayAttackSound
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.1875
     functionName: ContinueCombo
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 2
     messageOptions: 0
-  - time: 0.2857143
+  - time: 0.34375
     functionName: LastChanceCombo
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 2
+    messageOptions: 0
+  - time: 0.46875
+    functionName: FinishAttacking
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
     messageOptions: 0

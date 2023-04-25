@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: N_zero_takeof
+  m_Name: N_zero_dash_stops
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,23 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -1658876194, guid: 45508e485dfe846308b38761027695a8, type: 3}
+      value: {fileID: 401245013, guid: 45508e485dfe846308b38761027695a8, type: 3}
     - time: 0.0625
-      value: {fileID: -1190376974, guid: 45508e485dfe846308b38761027695a8, type: 3}
+      value: {fileID: 1759851832, guid: 45508e485dfe846308b38761027695a8, type: 3}
     - time: 0.125
-      value: {fileID: -1369961967, guid: 45508e485dfe846308b38761027695a8, type: 3}
+      value: {fileID: 255295374, guid: 45508e485dfe846308b38761027695a8, type: 3}
     - time: 0.1875
-      value: {fileID: -860871759, guid: 45508e485dfe846308b38761027695a8, type: 3}
-    - time: 0.25
-      value: {fileID: -187581346, guid: 45508e485dfe846308b38761027695a8, type: 3}
-    - time: 0.3125
-      value: {fileID: -1318284752, guid: 45508e485dfe846308b38761027695a8, type: 3}
-    - time: 0.375
-      value: {fileID: 1381270423, guid: 45508e485dfe846308b38761027695a8, type: 3}
-    - time: 0.4375
-      value: {fileID: 2008132865, guid: 45508e485dfe846308b38761027695a8, type: 3}
-    - time: 0.5
-      value: {fileID: 605009219, guid: 45508e485dfe846308b38761027695a8, type: 3}
+      value: {fileID: 395793260, guid: 45508e485dfe846308b38761027695a8, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -60,21 +50,16 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -1658876194, guid: 45508e485dfe846308b38761027695a8, type: 3}
-    - {fileID: -1190376974, guid: 45508e485dfe846308b38761027695a8, type: 3}
-    - {fileID: -1369961967, guid: 45508e485dfe846308b38761027695a8, type: 3}
-    - {fileID: -860871759, guid: 45508e485dfe846308b38761027695a8, type: 3}
-    - {fileID: -187581346, guid: 45508e485dfe846308b38761027695a8, type: 3}
-    - {fileID: -1318284752, guid: 45508e485dfe846308b38761027695a8, type: 3}
-    - {fileID: 1381270423, guid: 45508e485dfe846308b38761027695a8, type: 3}
-    - {fileID: 2008132865, guid: 45508e485dfe846308b38761027695a8, type: 3}
-    - {fileID: 605009219, guid: 45508e485dfe846308b38761027695a8, type: 3}
+    - {fileID: 401245013, guid: 45508e485dfe846308b38761027695a8, type: 3}
+    - {fileID: 1759851832, guid: 45508e485dfe846308b38761027695a8, type: 3}
+    - {fileID: 255295374, guid: 45508e485dfe846308b38761027695a8, type: 3}
+    - {fileID: 395793260, guid: 45508e485dfe846308b38761027695a8, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.5625
+    m_StopTime: 0.25
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -94,8 +79,8 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.5625
-    functionName: ResetTakeOf
+  - time: 0
+    functionName: StopDash
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

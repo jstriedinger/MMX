@@ -11,11 +11,15 @@ public class Zero : MonoBehaviour
     [SerializeField] GameObject bullet;
     [SerializeField] GameObject death_vfx;
 
-    [SerializeField] AudioClip sfx_bullet;
-    [SerializeField] AudioClip sfx_jumping;
-    [SerializeField] AudioClip sfx_dash;
-    [SerializeField] AudioClip sfx_item;
+    [SerializeField] AudioClip[] sfx_jumps;
+    [SerializeField] AudioClip sfx_dashBegins;
+    [SerializeField] AudioClip sfx_dashStops;
     [SerializeField] AudioClip sfx_death;
+    [SerializeField] AudioClip[] sfx_attacks;
+    [SerializeField] AudioClip sfx_defaultAttack;
+    [SerializeField] AudioClip sfx_beamdown;
+    [SerializeField] AudioClip[] sfx_damage;
+    [SerializeField] AudioClip sfx_landing;
 
 
 
@@ -58,7 +62,10 @@ public class Zero : MonoBehaviour
 
         myManager = (GameObject.Find("GameManager")).GetComponent<GameManager>();
         pause = false;
-        
+        PlaySound(sfx_beamdown);
+        direction = transform.localScale.x;
+
+
     }
 
     // Update is called once per frame
@@ -69,7 +76,7 @@ public class Zero : MonoBehaviour
             Run();
             Jump();
             Fire();
-            //Dash();
+            Dash();
             Attack();
         }
         
@@ -88,7 +95,6 @@ public class Zero : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            PlaySound(sfx_bullet);
             float direction = transform.localScale.x;
             GameObject bulletObject = Instantiate(bullet, transform.position + new Vector3(direction,-0.3f), transform.rotation);
             Disparo myBullet = bulletObject.GetComponent<Disparo>();
@@ -109,11 +115,12 @@ public class Zero : MonoBehaviour
         myBody.velocity = new Vector2(h * speed, myBody.velocity.y);
 
         myAnimator.SetBool("running", isMoving);
-        
+
         if (isMoving)
         {
             isLanding = false;
             transform.localScale = new Vector2(Mathf.Sign(h), 1);
+            direction = transform.localScale.x;
         }
             
     }
@@ -128,14 +135,13 @@ public class Zero : MonoBehaviour
             attackTimer = 0f;
             Debug.Log("Attack phase: "+attackCount);
 
-            //change blendtree?
-
             if (attackCount == 1)
             {
                 myAnimator.SetInteger("AttackCount", attackCount);
                 //trigger attack state
                 myAnimator.SetBool("Attack", true);
                 Debug.Log("Begin combo");
+
             }
         }
 
@@ -150,20 +156,25 @@ public class Zero : MonoBehaviour
                 //myAnimator.SetInteger("AttackCount", attackCount);
             }
         }
+        
     }
 
     public void ContinueCombo(int from)
     {
         Debug.Log("lets try to continue the combo from: "+from);
-        if(from == 1  && attackCount > 1)
+        if(from == 1  && attackCount > 1 && isAttacking)
         {
             Debug.Log("go to attack 2");
             myAnimator.SetInteger("AttackCount", 2);
         }
-        else if(from == 2 && attackCount > 2)
+        else if(from == 2 && attackCount > 2 && isAttacking)
         {
             Debug.Log("go to attack 3");
             myAnimator.SetInteger("AttackCount", 3);
+            canChainCombo = false;
+        }
+        else
+        {
             canChainCombo = false;
         }
         
@@ -185,19 +196,12 @@ public class Zero : MonoBehaviour
             {
                 myAnimator.SetBool("Attack", false);
                 attackCount = 0;
+                myAnimator.SetInteger("AttackCount", 0);
                 attackTimer = 0;
                 isAttacking = false;
                 canChainCombo = true;
             }
 
-        }
-        else
-        {
-            myAnimator.SetBool("Attack", false);
-            attackCount = 0;
-            attackTimer = 0;
-            isAttacking = false;
-            canChainCombo = true;
         }
     }
 
@@ -217,6 +221,8 @@ public class Zero : MonoBehaviour
                 myBody.velocity += new Vector2(0, jumpSpeed);
                 myAnimator.SetTrigger("takeof");
                 isTakingOf = true;
+                int r = Random.Range(0, sfx_jumps.Length);
+                PlaySound(sfx_jumps[r]);
             }
             else
             {
@@ -225,6 +231,7 @@ public class Zero : MonoBehaviour
                     Debug.Log("Begin fall animation");
                     myAnimator.SetTrigger("landing");
                     isLanding = true;
+                    PlaySound(sfx_landing);
                 }
                 
             }
@@ -260,7 +267,10 @@ public class Zero : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.X) && isGrounded())
         {
-            PlaySound(sfx_dash);
+            myAudio.Stop();
+            myAudio.Play();
+            Debug.Log("Play dash audio");
+            //PlaySound(sfx_dashBegins);
             startTime = Time.time;
             dasher.SetTrigger("dashing");
         }
@@ -272,10 +282,23 @@ public class Zero : MonoBehaviour
                 myBody.velocity += new Vector2(speed * 1.5f * direction, 0);
             }
             else
+            {
                 myAnimator.SetBool("dashing", false);
+            }
         }
-        else
+        if(Input.GetKeyUp(KeyCode.X) && isGrounded() && myAnimator.GetBool("dashing") )
+        {
+            Debug.Log("Stop dash audio");
+            myAudio.Stop();
             myAnimator.SetBool("dashing", false);
+            myBody.velocity = Vector2.zero;
+
+        }
+    }
+
+    public void StopDash()
+    {
+        myAudio.PlayOneShot(sfx_dashStops);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -285,7 +308,7 @@ public class Zero : MonoBehaviour
         {
             myManager.ReduceHearts();
             Destroy(collision.gameObject);
-            PlaySound(sfx_item);
+            //PlaySound(sfx_item);
         }
         else if(tag == "Enemy Bullet")
         {
@@ -316,8 +339,8 @@ public class Zero : MonoBehaviour
         myBody.isKinematic = true;
         myBody.velocity = Vector3.zero;
         yield return new WaitForSeconds(1);
-        Instantiate(death_vfx, transform.position, transform.rotation);
         AudioSource.PlayClipAtPoint(sfx_death, Camera.main.transform.position);
+        Instantiate(death_vfx, transform.position + new Vector3(0,1,0), transform.rotation);
         myManager.GameOver();
         Destroy(gameObject);
     }
@@ -326,7 +349,6 @@ public class Zero : MonoBehaviour
     {
         if(! isGrounded() && isTakingOf)
         {
-            Debug.Log("from takeof to jumping!");
             myAnimator.SetBool("jumping", true);
             isTakingOf = false;
 
@@ -343,6 +365,39 @@ public class Zero : MonoBehaviour
     {
         isLanding = false;
         myAnimator.ResetTrigger("landing");
+    }
+
+    public void PlayAttackSound()
+    {
+        PlaySound(sfx_defaultAttack);
+        if(attackCount == 1)
+        {
+            PlaySound(sfx_attacks[0]);
+        }
+        else if(attackCount == 2 )
+        {
+            PlaySound(sfx_attacks[1]);
+        }
+        else if (attackCount == 3)
+        {
+            PlaySound(sfx_attacks[2]);
+        }
+    }
+
+    public void ResetTakeOf()
+    {
+        myAnimator.ResetTrigger("takeof");
+    }
+
+    public void FinishAttacking()
+    {
+        Debug.Log("Finishing attack num " + attackCount);
+        myAnimator.SetBool("Attack", false);
+        attackCount = 0;
+        myAnimator.SetInteger("AttackCount", 0);
+        attackTimer = 0;
+        isAttacking = false;
+        canChainCombo = true;
     }
 
 

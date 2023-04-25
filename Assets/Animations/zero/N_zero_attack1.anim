@@ -22,44 +22,44 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 1171272281, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.035714287
+    - time: 0.03125
       value: {fileID: 947487916, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.071428575
+    - time: 0.0625
       value: {fileID: 1143620350, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.10714286
+    - time: 0.09375
       value: {fileID: -2139914884, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.14285715
+    - time: 0.125
       value: {fileID: -1252296853, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.17857143
+    - time: 0.15625
       value: {fileID: -240274705, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.21428572
+    - time: 0.1875
       value: {fileID: 647763888, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.25
+    - time: 0.21875
       value: {fileID: -1338505178, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.2857143
+    - time: 0.25
       value: {fileID: 190234202, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.32142857
+    - time: 0.28125
       value: {fileID: -1795042984, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.35714287
+    - time: 0.3125
       value: {fileID: -2096388625, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.39285713
+    - time: 0.34375
       value: {fileID: -1155541465, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.42857143
+    - time: 0.375
       value: {fileID: 1122150777, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.4642857
+    - time: 0.40625
       value: {fileID: 1827705043, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.53571427
+    - time: 0.46875
       value: {fileID: 804879694, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.60714287
+    - time: 0.53125
       value: {fileID: 870432094, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
-    - time: 0.6785714
+    - time: 0.59375
       value: {fileID: 1081816236, guid: 3c90122bd0bea4d5e958e580e3fad032, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 28
+  m_SampleRate: 32
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -98,7 +98,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.7142857
+    m_StopTime: 0.625
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -118,17 +118,31 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.2857143
+  - time: 0.0625
+    functionName: PlayAttackSound
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.25
     functionName: ContinueCombo
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 1
     messageOptions: 0
-  - time: 0.39285713
+  - time: 0.46875
     functionName: LastChanceCombo
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 1
+    messageOptions: 0
+  - time: 0.59375
+    functionName: FinishAttacking
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
     messageOptions: 0
